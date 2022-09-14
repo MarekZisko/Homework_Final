@@ -1,6 +1,7 @@
 package Main;
 
 import BookPcg.*;
+import Subscriber.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,8 +15,16 @@ public class Main {
         Book english = new ForeignBook("Love in the time of Cholera", "Gabriel Garcia Marquez", 120);
 
 
+
+        SubscriberAddress johnCarrotAddress = new SubscriberAddress("Hlavna", 17, "Kosice", "Slovakia", 4001);
+
+        Subscriber johnCarrot = new Subscriber("John", "Carrot", johnCarrotAddress, "john.carrot@gmail.com", 25);
+
+
         System.out.println(physics);
 
         System.out.println(slovak);
+        System.out.println(johnCarrotAddress);
+        System.out.println(johnCarrot);
     }
 }
