@@ -8,7 +8,7 @@ public class ScientificBook extends Book {
         this.scientificArea = scientificArea;
     }
 
-    private String scientificArea;
+    private final String scientificArea;
 
     @Override
     public String toString() {

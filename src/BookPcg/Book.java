@@ -7,9 +7,9 @@ public class Book {
         this.numOfPages = numOfPages;
     }
 
-    private String bookName;
-    private String authorName;
-    private int numOfPages;
+    private final String bookName;
+    private final String authorName;
+    private final int numOfPages;
 
     public String getBookName() {
         return bookName;

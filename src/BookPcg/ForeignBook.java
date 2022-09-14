@@ -12,7 +12,7 @@ public class ForeignBook extends Book {
         this.language = "English";
     }
 
-    private String language;
+    private final String language;
 
     @Override
     public String toString() {
