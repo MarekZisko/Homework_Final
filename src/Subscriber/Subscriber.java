@@ -23,6 +23,10 @@ public class Subscriber {
     private String emailAddress;
     private int age;
 
+    public boolean isUnderage() {
+        return age >= 18;
+    }
+
     @Override
     public String toString() {
         return ("First name: " + firstName + " Last name: " + lastName + " Subscriber address " + subscriberAddress + " Email address: " + emailAddress + " Age: " + age);
